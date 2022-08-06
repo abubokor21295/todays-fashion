@@ -1,0 +1,13 @@
+<?php
+if($page=="create-fruit"){
+	$found=include("views/pages/ui/fruit/create_fruit.php");
+}elseif($page=="edit-fruit"){
+	$found=include("views/pages/ui/fruit/edit_fruit.php");
+}elseif($page=="fruits"){
+	$found=include("views/pages/ui/fruit/manage_fruit.php");
+}elseif($page=="details-fruit"){
+	$found=include("views/pages/ui/fruit/details_fruit.php");
+}elseif($page=="view-fruit"){
+	$found=include("views/pages/ui/fruit/view_fruit.php");
+}
+?>

@@ -1,0 +1,13 @@
+<?php
+if($page=="create-person"){
+	$found=include("views/pages/ui/person/create_person.php");
+}elseif($page=="edit-person"){
+	$found=include("views/pages/ui/person/edit_person.php");
+}elseif($page=="manage-person"){
+	$found=include("views/pages/ui/person/manage_person.php");
+}elseif($page=="details-person"){
+	$found=include("views/pages/ui/person/details_person.php");
+}elseif($page=="view-person"){
+	$found=include("views/pages/ui/person/view_person.php");
+}
+?>

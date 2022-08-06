@@ -1,0 +1,13 @@
+<?php
+if($page=="create-flower"){
+	$found=include("views/pages/ui/flower/create_flower.php");
+}elseif($page=="edit-flower"){
+	$found=include("views/pages/ui/flower/edit_flower.php");
+}elseif($page=="manage-flower"){
+	$found=include("views/pages/ui/flower/manage_flower.php");
+}elseif($page=="details-flower"){
+	$found=include("views/pages/ui/flower/details_flower.php");
+}elseif($page=="view-flower"){
+	$found=include("views/pages/ui/flower/view_flower.php");
+}
+?>

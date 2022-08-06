@@ -1,0 +1,13 @@
+<?php
+if($page=="create-fish"){
+	$found=include("views/pages/ui/fish/create_fish.php");
+}elseif($page=="edit-fish"){
+	$found=include("views/pages/ui/fish/edit_fish.php");
+}elseif($page=="manage-fish"){
+	$found=include("views/pages/ui/fish/manage_fish.php");
+}elseif($page=="details-fish"){
+	$found=include("views/pages/ui/fish/details_fish.php");
+}elseif($page=="view-fish"){
+	$found=include("views/pages/ui/fish/view_fish.php");
+}
+?>

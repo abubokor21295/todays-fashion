@@ -1,0 +1,13 @@
+<?php
+if($page=="create-warehose"){
+	$found=include("views/pages/ui/warehose/create_warehose.php");
+}elseif($page=="edit-warehose"){
+	$found=include("views/pages/ui/warehose/edit_warehose.php");
+}elseif($page=="warehoses"){
+	$found=include("views/pages/ui/warehose/manage_warehose.php");
+}elseif($page=="details-warehose"){
+	$found=include("views/pages/ui/warehose/details_warehose.php");
+}elseif($page=="view-warehose"){
+	$found=include("views/pages/ui/warehose/view_warehose.php");
+}
+?>

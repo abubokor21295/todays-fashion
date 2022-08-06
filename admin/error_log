@@ -1,0 +1,323 @@
+[18-Nov-2021 13:46:44 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in G:\webserver\cpanel\admin\library\classes\_project.class.php:104
+Stack trace:
+#0 G:\webserver\cpanel\admin\pages\ui\project\manage_project.php(30): Project::manage_projects()
+#1 G:\webserver\cpanel\admin\placeholders\project_placeholder.php(7): include('G:\\webserver\\cp...')
+#2 G:\webserver\cpanel\admin\placeholder.php(10): include('G:\\webserver\\cp...')
+#3 G:\webserver\cpanel\admin\content_wrapper.php(5): include('G:\\webserver\\cp...')
+#4 G:\webserver\cpanel\admin\home.php(57): include('G:\\webserver\\cp...')
+#5 {main}
+  thrown in G:\webserver\cpanel\admin\library\classes\_project.class.php on line 104
+[18-Nov-2021 13:55:53 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in G:\webserver\cpanel\library\helper.php:320
+Stack trace:
+#0 G:\webserver\cpanel\pages\developer\generate_code.php(5): generate_code('databases')
+#1 G:\webserver\cpanel\placeholders\developer_placeholder.php(4): include('G:\\webserver\\cp...')
+#2 G:\webserver\cpanel\placeholder.php(10): include('G:\\webserver\\cp...')
+#3 G:\webserver\cpanel\content_wrapper.php(5): include('G:\\webserver\\cp...')
+#4 G:\webserver\cpanel\home.php(57): include('G:\\webserver\\cp...')
+#5 {main}
+  thrown in G:\webserver\cpanel\library\helper.php on line 320
+[18-Nov-2021 13:56:03 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in G:\webserver\cpanel\library\helper.php:320
+Stack trace:
+#0 G:\webserver\cpanel\pages\developer\generate_code.php(5): generate_code('databases')
+#1 G:\webserver\cpanel\placeholders\developer_placeholder.php(4): include('G:\\webserver\\cp...')
+#2 G:\webserver\cpanel\placeholder.php(10): include('G:\\webserver\\cp...')
+#3 G:\webserver\cpanel\content_wrapper.php(5): include('G:\\webserver\\cp...')
+#4 G:\webserver\cpanel\home.php(57): include('G:\\webserver\\cp...')
+#5 {main}
+  thrown in G:\webserver\cpanel\library\helper.php on line 320
+[18-Nov-2021 13:58:25 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Database' not found in G:\webserver\cpanel\pages\ui\database\manage_database.php:30
+Stack trace:
+#0 G:\webserver\cpanel\placeholders\database_placeholder.php(7): include()
+#1 G:\webserver\cpanel\placeholder.php(10): include('G:\\webserver\\cp...')
+#2 G:\webserver\cpanel\content_wrapper.php(5): include('G:\\webserver\\cp...')
+#3 G:\webserver\cpanel\home.php(57): include('G:\\webserver\\cp...')
+#4 {main}
+  thrown in G:\webserver\cpanel\pages\ui\database\manage_database.php on line 30
+[18-Nov-2021 13:59:26 Asia/Dhaka] PHP Notice:  Undefined variable: file_name in G:\webserver\cpanel\library\helper.php on line 387
+[18-Nov-2021 14:02:51 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Domain' not found in G:\webserver\cpanel\pages\ui\domain\manage_domain.php:30
+Stack trace:
+#0 G:\webserver\cpanel\placeholders\domain_placeholder.php(7): include()
+#1 G:\webserver\cpanel\placeholder.php(10): include('G:\\webserver\\cp...')
+#2 G:\webserver\cpanel\content_wrapper.php(5): include('G:\\webserver\\cp...')
+#3 G:\webserver\cpanel\home.php(56): include('G:\\webserver\\cp...')
+#4 {main}
+  thrown in G:\webserver\cpanel\pages\ui\domain\manage_domain.php on line 30
+[18-Nov-2021 14:11:57 Asia/Dhaka] PHP Fatal error:  Cannot redeclare Domain::get_domain() in G:\webserver\cpanel\library\classes\_domain.class.php on line 100
+[18-Nov-2021 14:12:17 Asia/Dhaka] PHP Fatal error:  Cannot redeclare Domain::get_domain() in G:\webserver\cpanel\library\classes\_domain.class.php on line 100
+[18-Nov-2021 14:14:26 Asia/Dhaka] PHP Fatal error:  Cannot redeclare Domain::get_domain() in G:\webserver\cpanel\library\classes\_domain.class.php on line 100
+[18-Nov-2021 14:14:38 Asia/Dhaka] PHP Warning:  require_once(library/classes/_domain.class.php): failed to open stream: No such file or directory in G:\webserver\cpanel\home.php on line 17
+[18-Nov-2021 14:14:38 Asia/Dhaka] PHP Fatal error:  require_once(): Failed opening required 'library/classes/_domain.class.php' (include_path='.;C:\php\pear') in G:\webserver\cpanel\home.php on line 17
+[18-Nov-2021 14:15:04 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Domain' not found in G:\webserver\cpanel\pages\ui\domain\manage_domain.php:30
+Stack trace:
+#0 G:\webserver\cpanel\placeholders\domain_placeholder.php(7): include()
+#1 G:\webserver\cpanel\placeholder.php(10): include('G:\\webserver\\cp...')
+#2 G:\webserver\cpanel\content_wrapper.php(5): include('G:\\webserver\\cp...')
+#3 G:\webserver\cpanel\home.php(56): include('G:\\webserver\\cp...')
+#4 {main}
+  thrown in G:\webserver\cpanel\pages\ui\domain\manage_domain.php on line 30
+[18-Nov-2021 21:46:38 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:46:38 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:46:38 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:46:39 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:46:39 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:46:39 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:46:42 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:46:42 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:46:42 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:46:43 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:46:43 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:46:43 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:46:43 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:46:43 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:46:43 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:46:44 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:46:44 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:46:44 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:46:46 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:46:46 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:46:46 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:34 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:35 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:35 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:35 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:35 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:35 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:35 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:35 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:35 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:35 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:35 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:35 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:35 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:35 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:35 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:35 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:35 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:35 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:35 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:36 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:41 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:42 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:42 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:42 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:42 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:42 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:42 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:42 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:42 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:42 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:42 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:42 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:42 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:42 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:42 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:42 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:42 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:42 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:42 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:42 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:42 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:42 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[18-Nov-2021 21:48:42 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[18-Nov-2021 21:48:42 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[19-Nov-2021 11:35:16 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[19-Nov-2021 11:35:17 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\main_sidebar.php on line 17
+[19-Nov-2021 11:35:17 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\main_sidebar.php on line 17
+[19-Nov-2021 12:04:42 Asia/Dhaka] PHP Warning:  include(pages/ui/user/manage_user.php): failed to open stream: No such file or directory in G:\webserver\cpanel\placeholders\system_placeholder.php on line 17
+[19-Nov-2021 12:04:42 Asia/Dhaka] PHP Warning:  include(): Failed opening 'pages/ui/user/manage_user.php' for inclusion (include_path='.;C:\php\pear') in G:\webserver\cpanel\placeholders\system_placeholder.php on line 17
+[19-Nov-2021 12:06:16 Asia/Dhaka] PHP Notice:  Undefined variable: obj in G:\webserver\cpanel\pages\ui\user\edit_user.php on line 52
+[19-Nov-2021 12:06:16 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in G:\webserver\cpanel\pages\ui\user\edit_user.php:52
+Stack trace:
+#0 G:\webserver\cpanel\placeholders\system_placeholder.php(15): include()
+#1 G:\webserver\cpanel\placeholder.php(10): include('G:\\webserver\\cp...')
+#2 G:\webserver\cpanel\content_wrapper.php(5): include('G:\\webserver\\cp...')
+#3 G:\webserver\cpanel\home.php(58): include('G:\\webserver\\cp...')
+#4 {main}
+  thrown in G:\webserver\cpanel\pages\ui\user\edit_user.php on line 52
+[19-Nov-2021 07:03:27 UTC] PHP Warning:  require_once(db_config.php): failed to open stream: No such file or directory in G:\webserver\cpanel\index.php on line 2
+[19-Nov-2021 07:03:27 UTC] PHP Fatal error:  require_once(): Failed opening required 'db_config.php' (include_path='.;C:\php\pear') in G:\webserver\cpanel\index.php on line 2
+[19-Nov-2021 13:07:05 Asia/Dhaka] PHP Warning:  include(pages/ui/database/manage_database.php): failed to open stream: No such file or directory in G:\webserver\cpanel\views\layout\placeholders\database_placeholder.php on line 7
+[19-Nov-2021 13:07:05 Asia/Dhaka] PHP Warning:  include(): Failed opening 'pages/ui/database/manage_database.php' for inclusion (include_path='.;C:\php\pear') in G:\webserver\cpanel\views\layout\placeholders\database_placeholder.php on line 7
+[19-Nov-2021 13:59:26 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[19-Nov-2021 13:59:26 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\views\layout\main_sidebar.php on line 17
+[19-Nov-2021 13:59:26 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\views\layout\main_sidebar.php on line 17
+[19-Nov-2021 13:59:28 Asia/Dhaka] PHP Warning:  include(pages/dashboard.php): failed to open stream: No such file or directory in G:\webserver\cpanel\views\layout\placeholders\general_placeholder.php on line 4
+[19-Nov-2021 13:59:28 Asia/Dhaka] PHP Warning:  include(): Failed opening 'pages/dashboard.php' for inclusion (include_path='.;C:\php\pear') in G:\webserver\cpanel\views\layout\placeholders\general_placeholder.php on line 4
+[19-Nov-2021 14:06:47 Asia/Dhaka] PHP Warning:  include(routes/placeholder.php.php): failed to open stream: No such file or directory in G:\webserver\cpanel\views\layout\content_wrapper.php on line 5
+[19-Nov-2021 14:06:47 Asia/Dhaka] PHP Warning:  include(): Failed opening 'routes/placeholder.php.php' for inclusion (include_path='.;C:\php\pear') in G:\webserver\cpanel\views\layout\content_wrapper.php on line 5
+[19-Nov-2021 14:56:12 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[19-Nov-2021 14:56:12 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\views\layout\main_sidebar.php on line 17
+[19-Nov-2021 14:56:12 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\views\layout\main_sidebar.php on line 17
+[19-Nov-2021 08:56:12 UTC] PHP Warning:  require_once(config/db_config.php): failed to open stream: No such file or directory in G:\webserver\cpanel\index.php on line 2
+[19-Nov-2021 08:56:12 UTC] PHP Fatal error:  require_once(): Failed opening required 'config/db_config.php' (include_path='.;C:\php\pear') in G:\webserver\cpanel\index.php on line 2
+[19-Nov-2021 15:17:33 Asia/Dhaka] PHP Warning:  require(../libraries/PHPMailer/src/Exception.php): failed to open stream: No such file or directory in G:\webserver\cpanel\helpers\email_helper.php on line 3
+[19-Nov-2021 15:17:33 Asia/Dhaka] PHP Fatal error:  require(): Failed opening required '../libraries/PHPMailer/src/Exception.php' (include_path='.;C:\php\pear') in G:\webserver\cpanel\helpers\email_helper.php on line 3
+[19-Nov-2021 21:04:35 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[19-Nov-2021 21:04:35 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\views\layout\main_sidebar.php on line 17
+[19-Nov-2021 21:04:35 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\views\layout\main_sidebar.php on line 17
+[19-Nov-2021 21:04:35 Asia/Dhaka] PHP Warning:  file_exists(): open_basedir restriction in effect. File(/var/tmp/file.tar.gz) is not within the allowed path(s): (G:/webserver;g:/tmp) in G:\webserver\cpanel\libraries\PHPMailer\src\PHPMailer.php on line 1846
+[19-Nov-2021 21:22:23 Asia/Dhaka] PHP Warning:  include(pages/404.php): failed to open stream: No such file or directory in G:\webserver\cpanel\routes\route.php on line 14
+[19-Nov-2021 21:22:23 Asia/Dhaka] PHP Warning:  include(): Failed opening 'pages/404.php' for inclusion (include_path='.;C:\php\pear') in G:\webserver\cpanel\routes\route.php on line 14
+[19-Nov-2021 21:33:34 Asia/Dhaka] PHP Warning:  file_exists(): open_basedir restriction in effect. File(/var/tmp/file.tar.gz) is not within the allowed path(s): (G:/webserver;g:/tmp) in G:\webserver\cpanel\libraries\PHPMailer\src\PHPMailer.php on line 1846
+[19-Nov-2021 21:34:14 Asia/Dhaka] PHP Warning:  file_exists(): open_basedir restriction in effect. File(/var/tmp/file.tar.gz) is not within the allowed path(s): (G:/webserver;g:/tmp) in G:\webserver\cpanel\libraries\PHPMailer\src\PHPMailer.php on line 1846
+[19-Nov-2021 21:34:26 Asia/Dhaka] PHP Warning:  file_exists(): open_basedir restriction in effect. File(/var/tmp/file.tar.gz) is not within the allowed path(s): (G:/webserver;g:/tmp) in G:\webserver\cpanel\libraries\PHPMailer\src\PHPMailer.php on line 1846
+[19-Nov-2021 21:34:32 Asia/Dhaka] PHP Warning:  file_exists(): open_basedir restriction in effect. File(/var/tmp/file.tar.gz) is not within the allowed path(s): (G:/webserver;g:/tmp) in G:\webserver\cpanel\libraries\PHPMailer\src\PHPMailer.php on line 1846
+[19-Nov-2021 21:34:36 Asia/Dhaka] PHP Warning:  file_exists(): open_basedir restriction in effect. File(/var/tmp/file.tar.gz) is not within the allowed path(s): (G:/webserver;g:/tmp) in G:\webserver\cpanel\libraries\PHPMailer\src\PHPMailer.php on line 1846
+[19-Nov-2021 21:35:46 Asia/Dhaka] PHP Warning:  file_exists(): open_basedir restriction in effect. File(/var/tmp/file.tar.gz) is not within the allowed path(s): (G:/webserver;g:/tmp) in G:\webserver\cpanel\libraries\PHPMailer\src\PHPMailer.php on line 1846
+[19-Nov-2021 21:35:54 Asia/Dhaka] PHP Warning:  file_exists(): open_basedir restriction in effect. File(/var/tmp/file.tar.gz) is not within the allowed path(s): (G:/webserver;g:/tmp) in G:\webserver\cpanel\libraries\PHPMailer\src\PHPMailer.php on line 1846
+[19-Nov-2021 21:36:23 Asia/Dhaka] PHP Warning:  file_exists(): open_basedir restriction in effect. File(/var/tmp/file.tar.gz) is not within the allowed path(s): (G:/webserver;g:/tmp) in G:\webserver\cpanel\libraries\PHPMailer\src\PHPMailer.php on line 1846
+[19-Nov-2021 21:36:26 Asia/Dhaka] PHP Warning:  file_exists(): open_basedir restriction in effect. File(/var/tmp/file.tar.gz) is not within the allowed path(s): (G:/webserver;g:/tmp) in G:\webserver\cpanel\libraries\PHPMailer\src\PHPMailer.php on line 1846
+[19-Nov-2021 21:38:02 Asia/Dhaka] PHP Warning:  file_exists(): open_basedir restriction in effect. File(/var/tmp/file.tar.gz) is not within the allowed path(s): (G:/webserver;g:/tmp) in G:\webserver\cpanel\libraries\PHPMailer\src\PHPMailer.php on line 1846
+[19-Nov-2021 21:42:36 Asia/Dhaka] PHP Warning:  include(pages/ui/subdomain/manage_subdomain.php): failed to open stream: No such file or directory in G:\webserver\cpanel\routes\subdomain_route.php on line 7
+[19-Nov-2021 21:42:36 Asia/Dhaka] PHP Warning:  include(): Failed opening 'pages/ui/subdomain/manage_subdomain.php' for inclusion (include_path='.;C:\php\pear') in G:\webserver\cpanel\routes\subdomain_route.php on line 7
+[19-Nov-2021 21:43:01 Asia/Dhaka] PHP Warning:  include(views/pages/ui/role/manage_role.php): failed to open stream: No such file or directory in G:\webserver\cpanel\routes\system_route.php on line 9
+[19-Nov-2021 21:43:01 Asia/Dhaka] PHP Warning:  include(): Failed opening 'views/pages/ui/role/manage_role.php' for inclusion (include_path='.;C:\php\pear') in G:\webserver\cpanel\routes\system_route.php on line 9
+[19-Nov-2021 21:43:14 Asia/Dhaka] PHP Warning:  include(pages/404.php): failed to open stream: No such file or directory in G:\webserver\cpanel\routes\route.php on line 14
+[19-Nov-2021 21:43:14 Asia/Dhaka] PHP Warning:  include(): Failed opening 'pages/404.php' for inclusion (include_path='.;C:\php\pear') in G:\webserver\cpanel\routes\route.php on line 14
+[20-Nov-2021 12:26:10 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[20-Nov-2021 12:26:11 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\views\layout\main_sidebar.php on line 17
+[20-Nov-2021 12:26:11 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\views\layout\main_sidebar.php on line 17
+[21-Nov-2021 08:14:28 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[21-Nov-2021 08:14:28 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\views\layout\main_sidebar.php on line 17
+[21-Nov-2021 08:14:28 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\views\layout\main_sidebar.php on line 17
+[21-Nov-2021 09:20:19 Asia/Dhaka] PHP Notice:  Undefined index: uid in G:\webserver\cpanel\home.php on line 9
+[21-Nov-2021 09:20:19 Asia/Dhaka] PHP Notice:  Undefined index: uname in G:\webserver\cpanel\views\layout\main_sidebar.php on line 17
+[21-Nov-2021 09:20:19 Asia/Dhaka] PHP Notice:  Undefined index: urole in G:\webserver\cpanel\views\layout\main_sidebar.php on line 17
+[12-Jun-2022 16:41:20 Asia/Dhaka] PHP Warning:  include(pages/404.php): Failed to open stream: No such file or directory in G:\webserver\www\student\round48\bokor\project\php_project\admin\routes\route.php on line 14
+[12-Jun-2022 16:41:20 Asia/Dhaka] PHP Warning:  include(): Failed opening 'pages/404.php' for inclusion (include_path='.;C:\php\pear') in G:\webserver\www\student\round48\bokor\project\php_project\admin\routes\route.php on line 14
+[12-Jun-2022 16:41:55 Asia/Dhaka] PHP Warning:  include(pages/404.php): Failed to open stream: No such file or directory in G:\webserver\www\student\round48\bokor\project\php_project\admin\routes\route.php on line 14
+[12-Jun-2022 16:41:55 Asia/Dhaka] PHP Warning:  include(): Failed opening 'pages/404.php' for inclusion (include_path='.;C:\php\pear') in G:\webserver\www\student\round48\bokor\project\php_project\admin\routes\route.php on line 14
+[12-Jun-2022 16:52:01 Asia/Dhaka] PHP Warning:  Undefined array key "txtId" in G:\webserver\www\student\round48\bokor\project\php_project\admin\views\pages\ui\user\create_user.php on line 42

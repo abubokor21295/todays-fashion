@@ -1,0 +1,9 @@
+[21-Mar-2022 10:58:29 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in G:\webserver\www\student\round48\bokor\project\php_project\admin\configs\db_config.php on line 15
+[21-Mar-2022 10:58:33 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in G:\webserver\www\student\round48\bokor\project\php_project\admin\models\product.class.php:287
+Stack trace:
+#0 G:\webserver\www\student\round48\bokor\project\php_project\admin\models\product.class.php(287): mysqli->query('select id,name,...')
+#1 G:\webserver\www\student\round48\bokor\project\php_project\site\home\watch.php(7): Product::get_watch_site_new()
+#2 G:\webserver\www\student\round48\bokor\project\php_project\site\home.php(14): include('G:\\webserver\\ww...')
+#3 G:\webserver\www\student\round48\bokor\project\php_project\index.php(82): include('G:\\webserver\\ww...')
+#4 {main}
+  thrown in G:\webserver\www\student\round48\bokor\project\php_project\admin\models\product.class.php on line 287

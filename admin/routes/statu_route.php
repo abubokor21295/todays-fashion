@@ -1,0 +1,13 @@
+<?php
+if($page=="create-statu"){
+	$found=include("views/pages/ui/statu/create_statu.php");
+}elseif($page=="edit-statu"){
+	$found=include("views/pages/ui/statu/edit_statu.php");
+}elseif($page=="status"){
+	$found=include("views/pages/ui/statu/manage_statu.php");
+}elseif($page=="details-statu"){
+	$found=include("views/pages/ui/statu/details_statu.php");
+}elseif($page=="view-statu"){
+	$found=include("views/pages/ui/statu/view_statu.php");
+}
+?>

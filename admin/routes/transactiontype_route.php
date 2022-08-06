@@ -1,0 +1,13 @@
+<?php
+if($page=="create-transactiontype"){
+	$found=include("views/pages/ui/transactiontype/create_transactiontype.php");
+}elseif($page=="edit-transactiontype"){
+	$found=include("views/pages/ui/transactiontype/edit_transactiontype.php");
+}elseif($page=="transaction_types"){
+	$found=include("views/pages/ui/transactiontype/manage_transactiontype.php");
+}elseif($page=="details-transactiontype"){
+	$found=include("views/pages/ui/transactiontype/details_transactiontype.php");
+}elseif($page=="view-transactiontype"){
+	$found=include("views/pages/ui/transactiontype/view_transactiontype.php");
+}
+?>
